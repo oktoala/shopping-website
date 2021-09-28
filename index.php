@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <?php include 'component/header.html'; ?>
+    <header class="header container">
+        <nav class="nav center">
+            <h2>Icon</h2>
+            <ul>
+                <li><a href="/">Home</a> </li>
+                <li><a href="/">About</a> </li>
+                <li><a href="/">Service</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <section class="section1 center">
+            
+        </section>
+    </main>
 </body>
+
 </html>
