@@ -42,12 +42,12 @@
                                 <p><?= $response_data->description ?></p>
                             </div>
                         </div>
-                        <div class="product-cart">
+                        <button onclick="alert('😃')" class="product-cart">
                             <?php include('../icon/add_shopping_cart.svg') ?>
                             <span>
                                 Add to Cart
                             </span>
-                        </div>
+                        </button>
                     </div>
                 </div>
             <?php else : ?>
