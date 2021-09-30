@@ -22,7 +22,7 @@
                     <?php ($isActive = ($_GET['category'] != $category) ? "" : "active") ?>
                     <div id="<?= $category ?>" class="category <?= $isActive ?>">
                         <a href="?category=<?= $category ?>">
-                            <?= $category ?>
+                            <?= ucfirst($category) ?>
                         </a>
                     </div>
                 <?php endforeach ?>

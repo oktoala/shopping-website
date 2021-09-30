@@ -148,6 +148,22 @@ body {
     margin-bottom: 10px;
 }
 
+.product-category {
+    margin-bottom: 10px;
+}
+
+.product-category span:first-child h3{
+    display: inline;
+}
+
+.product-category span:last-child {
+    color: var(--mainColor);
+    margin-left: 5px;
+}
+
+
+
+
 .product-price {
     display: flex;
     flex-direction: row;
@@ -216,7 +232,6 @@ body {
     border: none;
     border-radius: 10px;
     margin-top: 10px;
-    /* height: 200px; */
     padding: 30px 0;
 }
 

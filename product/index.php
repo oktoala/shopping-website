@@ -37,6 +37,16 @@
                                 </div>
                                 <div class="discount-value">15% OFF</div>
                             </div>
+                            <div class="product-category">
+                                <span>
+                                    <h3>Category: </h3>
+                                </span>
+                                <span>
+                                    <a href="/categories?category=<?= $response_data->category ?>">
+                                        <?= ucfirst($response_data->category) ?>
+                                    </a>
+                                </span>
+                            </div>
                             <div class="product-description">
                                 <h3>Description:</h3>
                                 <p><?= $response_data->description ?></p>
