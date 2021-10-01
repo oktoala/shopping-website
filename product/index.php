@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Product</title>
+    <title><?php
+            $title = $_GET["title"];
+            echo (empty($_GET)) ? "Products - Shopping" : "$title - Shopping" ?></title>
 </head>
 
 <body>
@@ -67,7 +69,7 @@
                 ?>
                 <div class='grid-container'>
                     <?php foreach ($response_data as $response) : ?>
-                        <a href='?id=<?= $response->id ?>'>
+                        <a href='?id=<?= $response->id ?>&title=<?= $response->title ?>'>
                             <article id='<?= $response->id ?>' class='grid-item'>
                                 <img class='grid-img' src='<?= $response->image ?>' />
                                 <div class='grid-value'>
@@ -78,9 +80,7 @@
                         </a>
                     <?php endforeach ?>
                 </div>
-
             <?php endif ?>
-
         </section>
     </main>
     <script>
@@ -89,3 +89,5 @@
         nav.style.fontWeight = 'bold';
     </script>
 </body>
+
+</html>

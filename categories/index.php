@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Categories</title>
+    <title><?php echo (empty($_GET) ? "Categories - Shopping" : ucfirst($_GET["category"]). " - Shooping") ?> </title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                 ?>
                 <div class='grid-container'>
                     <?php foreach ($response_data as $response) : ?>
-                        <a href='/product?id=<?= $response->id ?>'>
+                        <a href='/product?id=<?= $response->id ?>&title=<?= $response->title ?>'>
                             <article id='<?= $response->id ?>' class='grid-item'>
                                 <img class='grid-img' src='<?= $response->image ?>' />
                                 <div class='grid-value'>

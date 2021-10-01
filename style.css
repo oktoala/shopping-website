@@ -11,7 +11,11 @@
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--mainColor);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
@@ -243,4 +247,31 @@ body {
     background-color: var(--mainColor);
     color: var(--subColor);
     filter: brightness(1.3);
+}
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: start;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.about-profile img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.about-nama {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.about-text {
+    margin: 0 0 10px 40px;
 }
