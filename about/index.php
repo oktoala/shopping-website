@@ -22,12 +22,17 @@
                 <div class="about-text">
                     <h3>About Me</h3>
                     <p>Halo y'all.</p>
-                    <p>This is my simple website that i made for for Web Programming Subject.</p>
+                    <p>This is my simple website that i made for Web Programming Subject.</p>
                     <br>
+                    <p>I developed this website using HTML, CSS, and PHP. </p>
                     <p>
-                        API that i used to is <a target="_blank" href="https://fakestoreapi.com/">FakestoreApi</a>.
-
+                        API that i used is <a target="_blank" href="https://fakestoreapi.com/">FakestoreApi</a>.
                     </p>
+                    <br>
+                    <p>The tools that i used were Visual Studio Code as a text editor, Brave as a browser which is a Chromium Based</p>
+                    <p>And also the operating system that i used is the unloved <b>Linux</b>. 🐧</p>
+                    <br>
+                    <p>I also want to said many thanks to Mr. Arda Yunianta who has gave me (or us) the opportunity to implement my (or our) knowledge that I (or We) have/has recevived in Web Programming Subject. </p>
                 </div>
             </div>
         </section1>

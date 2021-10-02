@@ -20,6 +20,7 @@ a:hover {
 
 body {
     background-color: #f0f0f0;
+    line-height: 1.5;
 }
 
 .container {
@@ -64,6 +65,8 @@ body {
     text-decoration: none;
     color: var(--subColor);
 }
+
+
 
 /* Main */
 
@@ -151,7 +154,7 @@ body {
     margin-bottom: 10px;
 }
 
-.product-category span:first-child h3{
+.product-category span:first-child h3 {
     display: inline;
 }
 
@@ -245,8 +248,10 @@ body {
 
 .category.active {
     background-color: var(--mainColor);
+}
+
+.category.active a {
     color: var(--subColor);
-    filter: brightness(1.3);
 }
 
 /* About */
